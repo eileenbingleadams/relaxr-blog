@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  src: url('fonts/OpenSans-SemiBold.ttf') format('truetype'),
+       url('fonts/OpenSans-SemiBold.woff') format('woff'),
+       url('fonts/OpenSans-SemiBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-ExtraBold';
+  src: url('fonts/OpenSans-ExtraBold.ttf') format('truetype'),
+       url('fonts/OpenSans-ExtraBold.woff') format('woff'),
+       url('fonts/OpenSans-ExtraBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('fonts/OpenSans-Light.ttf') format('truetype'),
+       url('fonts/OpenSans-Light.woff') format('woff'),
+       url('fonts/OpenSans-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+ }
+
+@font-face {
+  font-family: 'OpenSans-LightItalic';
+  src: url('fonts/OpenSans-LightItalic.ttf') format('truetype'),
+       url('fonts/OpenSans-LightItalic.woff') format('woff'),
+       url('fonts/OpenSans-LightItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}  
+
+body {
+    margin: 0px;
+}
+
+.homepage-background {
+    background-image: url(images/header_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maxwidth {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+}
+
+.lightbackground {
+    background-color:#f0efef;
+    color: #121212;
+}
+
+.flexcolumn{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.header {
+    font-family: "OpenSans-ExtraBold";
+    font-size: 24pt;
+    color: white;
+}
+
+.tagline {
+    font-family: "OpenSans-SemiBold";
+    font-size: 24pt;
+    color: white;
+    border: 5px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+button {
+    font-family: "OpenSans-ExtraBold";
+    font-size: 14pt;
+    background-color: #f9e42e;
+    color: #121212;
+    border-radius: 5px;
+    border: 0px solid;
+    text-align: center;
+    padding: 5px 30px 5px 30px;
+}
