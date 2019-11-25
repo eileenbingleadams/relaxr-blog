@@ -42,10 +42,16 @@ body {
     background-image: url(images/header_bg.jpg);
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.lightbackground {
+    background-color:#f0efef;
+    display: flex;
+    justify-content: center;
 }
 
 .maxwidth {
@@ -54,9 +60,8 @@ body {
     padding: 20px;
 }
 
-.lightbackground {
-    background-color:#f0efef;
-    color: #121212;
+.textcolumn {
+    width: 60%;
 }
 
 .flexcolumn{
@@ -66,19 +71,13 @@ body {
     justify-content: space-between;
 }
 
-.header {
-    font-family: "OpenSans-ExtraBold";
-    font-size: 24pt;
-    color: white;
+.tagline {
+    border: 5px;
+    padding-bottom: 200px;
 }
 
-.tagline {
-    font-family: "OpenSans-SemiBold";
-    font-size: 24pt;
-    color: white;
-    border: 5px;
+.textaligncenter {
     text-align: center;
-    padding-bottom: 200px;
 }
 
 button {
@@ -90,4 +89,40 @@ button {
     border: 0px solid;
     text-align: center;
     padding: 5px 30px 5px 30px;
+}
+
+.semibold {
+    font-family: "OpenSans-SemiBold";
+}
+
+.extrabold {
+    font-family: "OpenSans-ExtraBold";
+}
+
+.light {
+    font-family: "OpenSans-Light";
+}
+
+.fontwhite {
+    color: white;
+}
+
+.fontdark {
+    color: #121212;
+}
+
+.text24 {
+    font-size: 24pt;
+}
+
+.text14 {
+    font-size: 14pt;
+}
+
+.text20 {
+    font-size: 20pt;
+}
+
+.text13 {
+    font-size: 13pt;
 }
