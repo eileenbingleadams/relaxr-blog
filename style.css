@@ -38,11 +38,22 @@ body {
     margin: 0px;
 }
 
+.viewheight60 {
+    height: 60vh;
+}
+
+.viewheight100p {
+    height: 100%;
+}
+
+.viewheight30 {
+    height: 30vh;
+}
+
 .homepage-background {
     background-image: url(images/header_bg.jpg);
     background-size: cover;
     background-position: center;
-    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,26 +65,49 @@ body {
     justify-content: center;
 }
 
+.darkbackground {
+    background-color:#606161;
+    display: flex;
+    justify-content: center;
+}
+
+.yellowbackground {
+    background-color:#f9e42e;
+    text-align: center;
+    padding: 20px;
+}
+
+
 .maxwidth {
     max-width: 800px;
     width: 100%;
     padding: 20px;
 }
 
-.textcolumn {
+.textcolumn60 {
     width: 60%;
+}
+
+.textcolumn40 {
+    width: 40%;
 }
 
 .flexcolumn{
     display: flex;
     flex-direction: column;
-    height: 100%;
     justify-content: space-between;
+}
+
+.flexrow {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .tagline {
     border: 5px;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 }
 
 .textaligncenter {
@@ -81,14 +115,20 @@ body {
 }
 
 button {
-    font-family: "OpenSans-ExtraBold";
-    font-size: 14pt;
-    background-color: #f9e42e;
-    color: #121212;
     border-radius: 5px;
     border: 0px solid;
     text-align: center;
     padding: 5px 30px 5px 30px;
+}
+
+.yellowbutton {
+    background-color: #f9e42e;
+    color: #121212;
+}
+
+.bluebutton {
+    background-color:#033048;
+    color: white;
 }
 
 .semibold {
@@ -103,12 +143,20 @@ button {
     font-family: "OpenSans-Light";
 }
 
+.lightitalic {
+    font-family: "OpenSans-LightItalic";
+}
+
 .fontwhite {
     color: white;
 }
 
 .fontdark {
     color: #121212;
+}
+
+.fontyellow {
+    color:#f9e42e;
 }
 
 .text24 {
@@ -125,4 +173,20 @@ button {
 
 .text13 {
     font-size: 13pt;
+}
+
+.text18 {
+    font-size: 18pt;
+}
+
+.text12 {
+    font-size: 12pt;
+}
+
+.extrapadding {
+    padding:40px;
+}
+
+.smallpadding {
+    padding:5px;
 }
