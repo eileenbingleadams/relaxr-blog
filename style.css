@@ -278,3 +278,7 @@ p.dropcap:first-letter {
 .textalignright {
     text-align: right;
 }
+
+a.no-underline {
+    text-decoration: none;
+}
