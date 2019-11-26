@@ -59,6 +59,14 @@ body {
     align-items: center;
 }
 
+.testimonial-background {
+    background-image: url(images/testimonial_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
 .lightbackground {
     background-color:#f0efef;
     display: flex;
