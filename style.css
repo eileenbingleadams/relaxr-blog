@@ -261,7 +261,7 @@ button {
     padding-bottom: 40px;
 }
 
-ul {
+ul.nobullets {
     list-style-type: none;
 }
 
