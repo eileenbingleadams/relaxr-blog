@@ -77,11 +77,21 @@ body {
     padding: 20px;
 }
 
+.bluebackground {
+    background-color:#033048;
+    display: flex;
+    justify-content: center;
+}
+
 
 .maxwidth {
-    max-width: 800px;
+    max-width: 920px;
     width: 100%;
     padding: 20px;
+}
+
+.textcolumn65 {
+    width: 65%;
 }
 
 .textcolumn60 {
@@ -90,6 +100,22 @@ body {
 
 .textcolumn40 {
     width: 40%;
+}
+
+.textcolumn30 {
+    width: 30%;
+}
+
+.textcolumn25 {
+    width: 25%;
+}
+
+.width100p {
+    width: 100%;
+}
+
+.width90p {
+    width: 90%;
 }
 
 .flexcolumn{
@@ -103,6 +129,13 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+.justifyspacebetween {
+    justify-content: space-between;
+}
+
+.justifyevenly {
+    justify-content: space-around;
 }
 
 .tagline {
@@ -159,6 +192,10 @@ button {
     color:#f9e42e;
 }
 
+.fontblue {
+    color:#033048;
+}
+
 .text24 {
     font-size: 24pt;
 }
@@ -183,10 +220,30 @@ button {
     font-size: 12pt;
 }
 
+.text32 {
+    font-size: 32pt;
+}
+
 .extrapadding {
     padding:40px;
 }
 
 .smallpadding {
     padding:5px;
+}
+
+.smallpaddingleft {
+    padding-left:5px;
+}
+
+.extrapaddingleft {
+    padding-left:40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.no-margin {
+    margin:0px;
 }
