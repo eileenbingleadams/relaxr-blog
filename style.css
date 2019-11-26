@@ -245,6 +245,10 @@ button {
     padding-left:5px;
 }
 
+.mediumpadding {
+    padding:10px;
+}
+
 .extrapaddingleft {
     padding-left:20px;
 }
