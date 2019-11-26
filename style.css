@@ -83,15 +83,14 @@ body {
     justify-content: center;
 }
 
-
 .maxwidth {
     max-width: 920px;
     width: 100%;
     padding: 20px;
 }
 
-.textcolumn65 {
-    width: 65%;
+.textcolumn75 {
+    width: 75%;
 }
 
 .textcolumn60 {
@@ -102,12 +101,9 @@ body {
     width: 40%;
 }
 
-.textcolumn30 {
-    width: 30%;
-}
-
 .textcolumn25 {
     width: 25%;
+    align-self: flex-start;
 }
 
 .width100p {
@@ -116,6 +112,11 @@ body {
 
 .width90p {
     width: 90%;
+}
+
+.borderbox {
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .flexcolumn{
@@ -237,7 +238,15 @@ button {
 }
 
 .extrapaddingleft {
-    padding-left:40px;
+    padding-left:20px;
+}
+
+.extrapaddingtop {
+    padding-top: 40px;
+}
+
+.extrapaddingbottom {
+    padding-bottom: 40px;
 }
 
 ul {
@@ -246,4 +255,14 @@ ul {
 
 .no-margin {
     margin:0px;
+}
+
+p.dropcap:first-letter {
+    float: left;
+    font-size: 40pt;
+    margin-right: 7px;
+}
+
+.textalignright {
+    text-align: right;
 }
